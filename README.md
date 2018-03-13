@@ -6,10 +6,10 @@ ECE 387 Individual Project
 * -3 LEDS
 
 # Overview:
-The goal of this project Is to create an programable electronic compass thet will always point at the desired 
+The goal of this project Is to create an programable electronic compass that will always point at the desired 
 Lattitde/Longitude coordinates. This is done by using the Xilinx PYNQ Board to control the Grove IMU 9DOF v2.0
 chip and webscraping freegeoip.net to find the current board's current location based on IP address. The desired
-direction is then convayed to the user Via LEDs.
+direction is then conveyed to the user Via LEDs.
 
 # Current State:
 As of 3/13/18 the compass will point to magnetic north when placed flat or tilted slightly. This is represented
